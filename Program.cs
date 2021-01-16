@@ -10,6 +10,10 @@ namespace Hw_14_try
     {
         static void Main(string[] args)
         {
+            _ = new Starter();
+            var bl = new BusinessLogic();
+            bl.Run();
+            Console.ReadLine();
         }
     }
 }
